@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>deck Software Parking Lot management interface</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Please provide ticket data:</h2>
+        <form method="POST" action="tst01">
+            <table>
+                <tr>
+                    <td><label for="tktSer">Ticket Serial:</label></td>
+                    <td><input id="tktSer" type="text" name="tktSer"/><br/></td>
+                </tr>
+                <tr>
+                    <td><label for="brand">Car brand: </label></td>
+                    <td><select name="brand" id="brand" size="5">
+                            <option value="Audi">Audi</option>
+                            <option value="BMW">BMW</option>
+                            <option value="Cooper">Cooper</option>
+                            <option value="Dodge">Dodge</option>
+                            <option value="Ferrari">Ferrari</option>
+                            <option value="Ford">Ford</option>
+                            <option value="GM">GM</option>
+                            <option value="Honda">Honda</option>
+                            <option value="Hyundai">Hyundai</option>
+                            <option value="Jaguar">Jaguar</option>
+                            <option value="Jeep">Jeep</option>
+                            <option value="Kia">Kia</option>
+                            <option value="Lamborghini">Lamborghini</option>
+                            <option value="Lexus">Lexus</option>
+                            <option value="Mazda">Mazda</option>
+                            <option value="Mercedes">Mercedes</option>
+                            <option value="Nissan">Nissan</option>
+                            <option value="Rover">Rover</option>
+                            <option value="Suzuki">Suzuki</option>
+                            <option value="Toyota">Toyota</option>
+                            <option value="Volvo">Volvo</option>
+                            <option value="VW">VW</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="type">Car Plate: </label></td>
+                    <td><input id="type" type="text" name="type"/><br/></td>
+<!--                    <td><select id="type" name="type" size="5">
+                            <option value="SUV">SUV</option>
+                            <option value="Hatchback">Hatchback</option>
+                            <option value="Crossover">Crossover</option>
+                            <option value="Convertible">Convertible</option>
+                            <option value="Sedan">Sedan</option>
+                            <option value="Sports">Sports</option>
+                            <option value="Coupe">Coupe</option>
+                            <option value="Minivan">Minivan</option>
+                            <option value="StationWagon">Station Wagon</option>
+                            <option value="PickupTruck">Pickup Truck</option>
+                        </select></td> -->
+                </tr>
+                <tr>
+                    <td><label for="color">Car color: </label></td>
+                    <td><select id="color" name="color" size="5">
+                            <option value="Beige">Beige</option>
+                            <option value="Black">Black</option>
+                            <option value="Blue">Blue</option>
+                            <option value="Brown">Brown</option>
+                            <option value="Gold">Gold</option>
+                            <option value="Gray">Gray</option>
+                            <option value="Green">Green</option>
+                            <option value="Orange">Orange</option>
+                            <option value="Purple">Purple</option>
+                            <option value="Red">Red</option>
+                            <option value="Silver">Silver</option>
+                            <option value="White">White</option>
+                            <option value="Yellow">Yellow</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="tmInc">Incoming day/time (dd/hhmm): </label></td>
+                    <td><input id="tmInc" type="text"/><br/></td>
+                </tr>
+            </table>
+            <input type="submit" onclick="vfyFrm();"/> <input type="reset"/>
+        </form>
+        <p id="msg"> </p>
+        <script>
+            function vfyFrm() {
+
+            }
+        </script>
+    </body>
+</html>
