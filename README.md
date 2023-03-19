@@ -1,6 +1,6 @@
 # ParkingLot
 Parking Lot management code
-Web support interface to remote clients for Parkin Lot application
+Web support interface to remote clients for Parking Lot application
 There are currently iOS and web clients on dev stage
 Jarata EE component provides all server side logic including
 - Persisntece (JPA)
